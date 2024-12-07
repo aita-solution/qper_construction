@@ -1,0 +1,7 @@
+runtime: static
+handlers:
+  - url: /
+    static_dir: dist
+
+env_variables:
+  STAGING_BUCKET: qperai-staging-bucket
